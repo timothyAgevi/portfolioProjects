@@ -8,4 +8,4 @@ const PORT =5000;// define PORT
 app.use(bodyParser.json())
 //note inn json obj and key enclosed in""
 
-app.listen(PORT,console.log(`Server running on Port : {PORT}`));
+app.listen(PORT,() =>console.log(`Server running on Port : http://localhost:${PORT}`));
