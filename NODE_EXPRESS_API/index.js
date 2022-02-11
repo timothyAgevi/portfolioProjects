@@ -7,3 +7,5 @@ const PORT =5000;// define PORT
 //initilaze body parser midddleware
 app.use(bodyParser.json())
 //note inn json obj and key enclosed in""
+
+app.listen(PORT,console.log(`Server running on Port : {PORT}`));
